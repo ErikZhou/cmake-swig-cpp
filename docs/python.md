@@ -33,6 +33,9 @@ note: Since `python_package` is in target `all`, you can also ommit the
 ![image](https://user-images.githubusercontent.com/2443155/160074598-ad5e0aea-0bde-47b2-a298-6b8db0ae82da.png)
 ![image](https://user-images.githubusercontent.com/2443155/160074662-98f7de68-7403-4cc8-8b2d-2f324446e6a8.png)
 
+![image](https://user-images.githubusercontent.com/2443155/160076326-b8bde38e-350f-4e92-b873-abc3c04e2558.png)
+
+
 
 # Technical Notes
 ## Build directory layout
@@ -107,4 +110,17 @@ todo(mizux): try to use [`file(GENERATE ...)`](https://cmake.org/cmake/help/late
 
 # Testing Python
 ## Testing using virtualenv
+## Installing python package
+cd build\python
+pip install .
+![image](https://user-images.githubusercontent.com/2443155/160076558-16696cde-07bd-4f6b-952e-97fd657ea8dc.png)
+## Checking result
+![image](https://user-images.githubusercontent.com/2443155/160076685-ea51851a-3d7b-4840-98b1-d39acb963d99.png)
+
+## Running unit test code for python
+cd tests
+python foo.py
+![image](https://user-images.githubusercontent.com/2443155/160077529-026451a0-f2f5-4ca1-82c0-249b641d1a39.png)
+
+
 
