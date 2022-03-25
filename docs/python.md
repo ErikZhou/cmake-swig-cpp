@@ -111,15 +111,19 @@ todo(mizux): try to use [`file(GENERATE ...)`](https://cmake.org/cmake/help/late
 # Testing Python
 ## Testing using virtualenv
 ## Installing python package
+```sh
 cd build\python
 pip install .
+```
 ![image](https://user-images.githubusercontent.com/2443155/160076558-16696cde-07bd-4f6b-952e-97fd657ea8dc.png)
 ## Checking result
 ![image](https://user-images.githubusercontent.com/2443155/160076685-ea51851a-3d7b-4840-98b1-d39acb963d99.png)
 
 ## Running unit test code for python
+```sh
 cd tests
 python foo.py
+```
 ![image](https://user-images.githubusercontent.com/2443155/160077529-026451a0-f2f5-4ca1-82c0-249b641d1a39.png)
 
 
