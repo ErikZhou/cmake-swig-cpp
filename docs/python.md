@@ -126,5 +126,10 @@ python foo.py
 ```
 ![image](https://user-images.githubusercontent.com/2443155/160077529-026451a0-f2f5-4ca1-82c0-249b641d1a39.png)
 
+## Uninstalling python package
+```sh
+pip uninstall cmakeswig
+```
+![image](https://user-images.githubusercontent.com/2443155/160080897-e947465a-74d4-4dfb-ac83-d9ff60025899.png)
 
 
