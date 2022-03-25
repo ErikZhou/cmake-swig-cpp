@@ -29,6 +29,11 @@ cmake --build build --target python_package -v
 note: Since `python_package` is in target `all`, you can also ommit the
 `--target` option.
 
+![image](https://user-images.githubusercontent.com/2443155/160074456-af1ef172-7ad4-4d70-967b-76a02b39eee9.png)
+![image](https://user-images.githubusercontent.com/2443155/160074598-ad5e0aea-0bde-47b2-a298-6b8db0ae82da.png)
+![image](https://user-images.githubusercontent.com/2443155/160074662-98f7de68-7403-4cc8-8b2d-2f324446e6a8.png)
+
+
 # Technical Notes
 ## Build directory layout
 Since Python use the directory name where `__init__.py` file is located and we
